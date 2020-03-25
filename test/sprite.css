@@ -1,0 +1,91 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+
+.icon-container-M-size-1 {
+    display: inline-block;
+    width:  32px;
+    height: 32px;
+}
+.icon-container-M-size-1 .icon {
+    transform: scale(0.0625, 0.0625);
+    transform-origin: top left;
+}
+
+.icon-container-M-size-2 {
+    display: inline-block;
+    width:  64px;
+    height: 64px;
+}
+.icon-container-M-size-2 .icon {
+    transform: scale(0.125, 0.125);
+    transform-origin: top left;
+}
+
+.icon-container-M-size-3 {
+    display: inline-block;
+    width:  128px;
+    height: 128px;
+}
+.icon-container-M-size-3 .icon {
+    transform: scale(0.25, 0.25);
+    transform-origin: top left;
+}
+
+.icon-container-M-size-4 {
+    display: inline-block;
+    width:  256px;
+    height: 256px;
+}
+.icon-container-M-size-4 .icon {
+    transform: scale(0.5, 0.5);
+    transform-origin: top left;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-compass {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 512px;
+  height: 512px;
+}
+.icon-directional {
+  background-image: url(sprite.png);
+  background-position: -512px 0px;
+  width: 512px;
+  height: 512px;
+}
+.icon-distance-1 {
+  background-image: url(sprite.png);
+  background-position: 0px -512px;
+  width: 512px;
+  height: 512px;
+}
+.icon-distance {
+  background-image: url(sprite.png);
+  background-position: -512px -512px;
+  width: 512px;
+  height: 512px;
+}
+.icon-earth-globe {
+  background-image: url(sprite.png);
+  background-position: -1024px 0px;
+  width: 512px;
+  height: 512px;
+}
